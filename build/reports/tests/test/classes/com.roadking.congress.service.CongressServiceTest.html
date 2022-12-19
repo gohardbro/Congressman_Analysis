@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.687s</div>
+<div class="counter">0.762s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">뷰_카운트()</td>
-<td class="success">0.687s</td>
+<td class="success">0.762s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,21 +87,21 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>12:00:57.051 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
-12:00:57.063 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
-12:00:57.119 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.roadking.congress.service.CongressServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
-12:00:57.137 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.roadking.congress.service.CongressServiceTest], using SpringBootContextLoader
-12:00:57.142 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roadking.congress.service.CongressServiceTest]: class path resource [com/roadking/congress/service/CongressServiceTest-context.xml] does not exist
-12:00:57.142 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roadking.congress.service.CongressServiceTest]: class path resource [com/roadking/congress/service/CongressServiceTestContext.groovy] does not exist
-12:00:57.143 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.roadking.congress.service.CongressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-12:00:57.143 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.roadking.congress.service.CongressServiceTest]: CongressServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-12:00:57.221 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.roadking.congress.service.CongressServiceTest]
-12:00:57.301 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/anyone/Desktop/git/Congressman_Analysis/build/classes/java/main/com/roadking/congress/CongressApplication.class]
-12:00:57.303 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.roadking.congress.CongressApplication for test class com.roadking.congress.service.CongressServiceTest
-12:00:57.418 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.roadking.congress.service.CongressServiceTest]: using defaults.
-12:00:57.419 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-12:00:57.483 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cc62a3b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6cc0bcf6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@29539e36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@32f61a31, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f5c79a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@669253b7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5305c37d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51a06cbe, org.springframework.test.context.event.EventPublishingTestExecutionListener@3dddbe65, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49a64d82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@344561e0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@66d23e4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36ac8a63, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4d9d1b69, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52c8295b]
-12:00:57.499 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
+<pre>13:04:09.143 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+13:04:09.154 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+13:04:09.218 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.roadking.congress.service.CongressServiceTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+13:04:09.240 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.roadking.congress.service.CongressServiceTest], using SpringBootContextLoader
+13:04:09.246 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roadking.congress.service.CongressServiceTest]: class path resource [com/roadking/congress/service/CongressServiceTest-context.xml] does not exist
+13:04:09.247 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.roadking.congress.service.CongressServiceTest]: class path resource [com/roadking/congress/service/CongressServiceTestContext.groovy] does not exist
+13:04:09.247 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.roadking.congress.service.CongressServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:04:09.247 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.roadking.congress.service.CongressServiceTest]: CongressServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:04:09.320 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.roadking.congress.service.CongressServiceTest]
+13:04:09.403 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/Users/anyone/Desktop/git/Congressman_Analysis/build/classes/java/main/com/roadking/congress/CongressApplication.class]
+13:04:09.405 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.roadking.congress.CongressApplication for test class com.roadking.congress.service.CongressServiceTest
+13:04:09.530 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.roadking.congress.service.CongressServiceTest]: using defaults.
+13:04:09.531 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+13:04:09.607 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@cc62a3b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@6cc0bcf6, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@29539e36, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@32f61a31, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@f5c79a6, org.springframework.test.context.support.DirtiesContextTestExecutionListener@669253b7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5305c37d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@51a06cbe, org.springframework.test.context.event.EventPublishingTestExecutionListener@3dddbe65, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@49a64d82, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@344561e0, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@66d23e4a, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@36ac8a63, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4d9d1b69, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@52c8295b]
+13:04:09.616 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true]], class annotated with @DirtiesContext [false] with mode [null].
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -111,7 +111,7 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v2.7.3)
 
-2022-12-19 12:00:58.348  WARN 82014 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+2022-12-19 13:04:10.447  WARN 85305 --- [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
 
 Found multiple occurrences of org.json.JSONObject on the class path:
 
@@ -120,20 +120,20 @@ Found multiple occurrences of org.json.JSONObject on the class path:
 
 You may wish to exclude one of them to ensure predictable runtime behavior
 
-2022-12-19 12:00:58.379  INFO 82014 --- [    Test worker] c.r.c.service.CongressServiceTest        : Starting CongressServiceTest using Java 11.0.12 on noOne-MacBookAir.local with PID 82014 (started by anyone in /Users/anyone/Desktop/git/Congressman_Analysis)
-2022-12-19 12:00:58.380  INFO 82014 --- [    Test worker] c.r.c.service.CongressServiceTest        : The following 1 profile is active: &quot;test&quot;
-2022-12-19 12:00:59.854  INFO 82014 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-12-19 12:00:59.877  INFO 82014 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
-2022-12-19 12:01:01.052  INFO 82014 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-12-19 12:01:01.109  INFO 82014 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-12-19 12:01:01.334  INFO 82014 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-12-19 12:01:01.443  INFO 82014 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-12-19 12:01:02.741  INFO 82014 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-12-19 12:01:02.773  INFO 82014 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
-2022-12-19 12:01:03.948 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:10.475  INFO 85305 --- [    Test worker] c.r.c.service.CongressServiceTest        : Starting CongressServiceTest using Java 11.0.12 on noOne-MacBookAir.local with PID 85305 (started by anyone in /Users/anyone/Desktop/git/Congressman_Analysis)
+2022-12-19 13:04:10.478  INFO 85305 --- [    Test worker] c.r.c.service.CongressServiceTest        : The following 1 profile is active: &quot;test&quot;
+2022-12-19 13:04:11.925  INFO 85305 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-19 13:04:11.949  INFO 85305 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2022-12-19 13:04:13.121  INFO 85305 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-19 13:04:13.181  INFO 85305 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-12-19 13:04:13.432  INFO 85305 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-19 13:04:13.559  INFO 85305 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-19 13:04:14.885  INFO 85305 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-19 13:04:14.919  INFO 85305 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+2022-12-19 13:04:16.103 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     drop table congressman cascade constraints
-2022-12-19 12:01:04.009  WARN 82014 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
+2022-12-19 13:04:16.160  WARN 85305 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
     drop table congressman cascade constraints&quot; via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL &quot;
@@ -281,10 +281,10 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: 테이블 또는 뷰�
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637) ~[ojdbc8-21.5.0.0.jar:21.5.0.0.0]
 	... 133 common frames omitted
 
-2022-12-19 12:01:04.025 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.170 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     drop table sns cascade constraints
-2022-12-19 12:01:04.063  WARN 82014 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
+2022-12-19 13:04:16.240  WARN 85305 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
     drop table sns cascade constraints&quot; via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL &quot;
@@ -432,10 +432,10 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-00942: 테이블 또는 뷰�
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637) ~[ojdbc8-21.5.0.0.jar:21.5.0.0.0]
 	... 133 common frames omitted
 
-2022-12-19 12:01:04.080 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.257 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     drop sequence hibernate_sequence
-2022-12-19 12:01:04.115  WARN 82014 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
+2022-12-19 13:04:16.304  WARN 85305 --- [    Test worker] o.h.t.s.i.ExceptionHandlerLoggedImpl     : GenerationTarget encountered exception accepting command : Error executing DDL &quot;
     drop sequence hibernate_sequence&quot; via JDBC Statement
 
 org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL &quot;
@@ -583,8 +583,8 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02289: 시퀀스가 존재�
 	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:637) ~[ojdbc8-21.5.0.0.jar:21.5.0.0.0]
 	... 133 common frames omitted
 
-2022-12-19 12:01:04.129 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by  1
-2022-12-19 12:01:04.156 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.336 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by  1
+2022-12-19 13:04:16.363 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     create table congressman (
        congressman_id number(19,0) not null,
@@ -616,7 +616,7 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02289: 시퀀스가 존재�
         sns_id number(19,0),
         primary key (congressman_id)
     )
-2022-12-19 12:01:04.305 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.586 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     create table sns (
        sns_id number(19,0) not null,
@@ -628,30 +628,30 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02289: 시퀀스가 존재�
         utube_url varchar2(255 char),
         primary key (sns_id)
     )
-2022-12-19 12:01:04.339 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.631 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     
     alter table congressman 
        add constraint FKcg0k80wdkynstcpll164966w3 
        foreign key (sns_id) 
        references sns
-2022-12-19 12:01:04.386  INFO 82014 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-12-19 12:01:04.414  INFO 82014 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-12-19 12:01:05.196  WARN 82014 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-12-19 12:01:06.246  INFO 82014 --- [    Test worker] c.r.c.service.CongressServiceTest        : Started CongressServiceTest in 8.673 seconds (JVM running for 10.529)
-2022-12-19 12:01:06.372  INFO 82014 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = com.roadking.congress.service.CongressServiceTest@57cc0333, testMethod = 뷰_카운트@CongressServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@37fc7e3c]; rollback [true]
-2022-12-19 12:01:06.534 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:16.687  INFO 85305 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-19 13:04:16.710  INFO 85305 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-19 13:04:17.647  WARN 85305 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-19 13:04:18.835  INFO 85305 --- [    Test worker] c.r.c.service.CongressServiceTest        : Started CongressServiceTest in 9.145 seconds (JVM running for 11.054)
+2022-12-19 13:04:18.961  INFO 85305 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Began transaction (1) for test context [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = com.roadking.congress.service.CongressServiceTest@69cc3370, testMethod = 뷰_카운트@CongressServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]; transaction manager [org.springframework.orm.jpa.JpaTransactionManager@594965c9]; rollback [true]
+2022-12-19 13:04:19.148 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     select
         hibernate_sequence.nextval 
     from
         dual
-2022-12-19 12:01:06.707 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:19.344 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     insert 
     into
         congressman
         (assem_addr, bth_date, bth_gbn_nm, cmit_nm, cmits, elect_gbn_nm, email, en_name, hj_name, homepage, job_res_nm, mem_title, mona_cd, name, orig_nm, poly_nm, reele_gbn_nm, secretary, secretary2, sex, similar_view, sns_id, staff, tel_no, units, view_cnt, congressman_id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-2022-12-19 12:01:06.812 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:19.467 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     update
         congressman 
     set
@@ -683,14 +683,14 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02289: 시퀀스가 존재�
         view_cnt=? 
     where
         congressman_id=?
-2022-12-19 12:01:06.879 DEBUG 82014 --- [    Test worker] org.hibernate.SQL                        : 
+2022-12-19 13:04:19.550 DEBUG 85305 --- [    Test worker] org.hibernate.SQL                        : 
     select
         congressma0_.view_cnt as col_0_0_ 
     from
         congressman congressma0_ 
     where
         congressma0_.name=?
-2022-12-19 12:01:06.969  INFO 82014 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = com.roadking.congress.service.CongressServiceTest@57cc0333, testMethod = 뷰_카운트@CongressServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
+2022-12-19 13:04:19.637  INFO 85305 --- [    Test worker] o.s.t.c.transaction.TransactionContext   : Rolled back transaction for test: [DefaultTestContext@1d572e62 testClass = CongressServiceTest, testInstance = com.roadking.congress.service.CongressServiceTest@69cc3370, testMethod = 뷰_카운트@CongressServiceTest, testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@29caf222 testClass = CongressServiceTest, locations = '{}', classes = '{class com.roadking.congress.CongressApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@4b3a45f1, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@1a7288a3, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@68b6f0d6, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@3b7ff809, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@75390459, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@a8ef162], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.populatedRequestContextHolder' -&gt; true, 'org.springframework.test.context.web.ServletTestExecutionListener.resetRequestContextHolder' -&gt; true, 'org.springframework.test.context.event.ApplicationEventsTestExecutionListener.recordApplicationEvents' -&gt; false]]
 </pre>
 </span>
 </div>
@@ -702,7 +702,7 @@ Caused by: oracle.jdbc.OracleDatabaseException: ORA-02289: 시퀀스가 존재�
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.4</a> at 2022. 12. 19. 오후 12:01:07</p>
+<a href="http://www.gradle.org">Gradle 7.4</a> at 2022. 12. 19. 오후 1:04:20</p>
 </div>
 </div>
 </body>
