@@ -23,7 +23,7 @@ class CongressServiceTest {
     EntityManager em;
 
     @Test
-    public void 뷰_카운트() throws Exception {
+    public void 뷰_카운트() {
         //given
         Congressman congressman = new Congressman("aa");
 

@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-20.04 # (3)
+    env:
+      APPLICATION_MAIN: ${{ secrets.APPLICATION_MAIN }}
+      APPLICATION_TEST: ${{ secrets.APPLICATION_TEST }}
 
     steps:
       - name: Checkout
@@ -21,11 +24,11 @@ jobs:
           java-version: '11'
 
       - run: touch ./src/main/resources/application_main.yml
-      - run: echo "${{ secrets.APPLICATION_MAIN }}" > ./src/main/resources/application_main.yml
+      - run: echo "$APPLICATION_MAIN" > ./src/main/resources/application_main.yml
       - run: cat ./src/main/resources/application_main.yml
 
       - run: touch ./src/test/resources/application_test.yml
-      - run: echo "${{ secrets.APPLICATION_TEST }}" > ./src/main/resources/application_test.yml
+      - run: echo "$APPLICATION_TEST" > ./src/main/resources/application_test.yml
       - run: cat ./src/main/resources/application_test.yml
 
       - name: Grant execute permission for gradlew
