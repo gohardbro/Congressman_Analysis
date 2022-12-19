@@ -32,7 +32,7 @@ class CongressServiceTest {
         congressman.viewUp();
 
         //then
-        Integer result = em.createQuery("select c.view from Congressman c where c.name = :name", Integer.class)
+        Integer result = em.createQuery("select c.viewCnt from Congressman c where c.name = :name", Integer.class)
                 .setParameter("name", "aa")
                 .getSingleResult();
 

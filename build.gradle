@@ -42,3 +42,17 @@ dependencies {
 tasks.named('test') {
     useJUnitPlatform()
 }
+
+task copyPrivate(type: Copy) {
+    copy {
+        from './Congressman_Analysis-submodule'
+        include "application-main.yml"
+        into 'src/main/resources'
+    }
+
+    copy {
+        from './Congressman_Analysis-submodule'
+        include "application-test.yml"
+        into 'src/test/resources'
+    }
+}

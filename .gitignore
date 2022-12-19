@@ -208,5 +208,6 @@ gradle-app.setting
 *.hprof
 
 # 설정정보
-application-secret.yml
+application-main.yml
+application-test.yml
 
