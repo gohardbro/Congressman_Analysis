@@ -14,8 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2 # (4)
 
-      - name: Setup Java JDK
-        uses: actions/setup-java@v3.9.0
+      - name: Set up JDK
+        uses: actions/setup-java@v1 # (5)
         with:
           java-version: 11
 
